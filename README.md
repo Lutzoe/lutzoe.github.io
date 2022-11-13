@@ -88,4 +88,98 @@ Lutz Oettershagen, Nils M. Kriege, Claude Jordan, Petra Mutzel
 **Best paper award** 
 
 
+## Teaching and Supervision
+
+### Classes, Labs, and Seminars
+
+* **Algorithms for Data Analysis**  
+Exercises for computer science and mathematics master class  
+Winter term 2022--2023
+
+* **Lab Computational Analytics - Temporal Graphs for Functional Brain Network Analysis**  
+Lab for computer science and mathematics master students  
+Summer term 2022
+
+* **Algorithms for Data Analysis**  
+Exercises for computer science and mathematics master class  
+Winter term 2021--2022
+
+* **Graphenalgorithmen (Graph algorithms)**
+Exercises for computer science and mathematics bachelor class
+Summer term 2021
+
+* **Advanced Algorithms**  
+Exercises for computer science and mathematics master class  
+Winter term 2020--2021
+
+* **Lab Computational Analytics--Algorithms for Learning on Temporal Graphs**  
+Lab for computer science and mathematics master students  
+Summer term 2020
+
+* **Algorithmen und Berechnungskomplexität I (Algorithms and Complexity I)**  
+Exercises for computer science and mathematics bachelor class  
+Winter term 2019--2020
+
+* **Softwaretechnik(Software Technology)**  
+Exercises for computer science bachelor class  
+Summer term 2021
+
+* **Proseminar Graphalgorithmen(Seminar Graph Algorithms)**  
+Seminar for computer science bachelor class  
+Summer term 2021
+
+Einführung in die Programmierung(Introduction into Programming)**  
+Exercises for computer science and mathematics bachelor class  
+Winter term 2019--2020
+
+* **Grundbegriffe der Theoretischen Informatik (Theoretical Computer Science Basics)**  
+Exercises for computer science bachelor class  
+Summer term 2018
+
+* **Seminar Algorithm Engineering**  
+Seminar for computer science master class  
+Summer term 2018
+
+* **Einführung in die Programmierung (Introduction into Programming)**  
+Lab for computer science and mathematics bachelor class  
+Winter term 2017--2018
+
+* **Effiziente Algorithmen (Efficient Algorithms)**  
+Exercises for computer science bachelor class  
+Summer term 2017
+
+### Supervised Theses
+
+* Zentralitätsmaße für temporale Graphen basierend auf gegenseitiger Erreichbarkeit  
+Bachelor thesis, 2022
+
+* Link Prediction in Dynamic Communication Networks Using Graph Neural Networks  
+Master thesis, 2022
+
+* Vergleich von Zentralitätsmaßen auf statischen Graphen zur Identifikation von Superspreadern  
+Bachelor thesis, 2022
+
+* BOBA* für Meeresdaten  
+Bachelor thesis, 2022
+
+* Klassifikation temporaler Graphen mit Graphkernen  
+Bachelor thesis, 2021
+
+* Maximal-flow graph kernel  
+Bachelor thesis, 2021
+
+* Similarity Measures for Temporal Graphs based on the k-dimensional Weisfeiler-Leman Refinement  
+Master thesis, 2021
+
+* Entwicklung und Evaluation von Syntheseansätzen fürTemporale Graphen mit Generative Adversarial Networks  
+Bachelor thesis, 2021
+
+* Synthese Realistischer Temporaler Graphen  
+Bachelor thesis, 2021
+
+* Routenplanung für zwei Fahrzeuge in Graphen mit zeitexklusiver Kantennutzung  
+Bachelor thesis, 2019
+
+* Bestimmung der Separationen in Zeichnungen vollständiger Graphen  
+Bachelor thesis, 2019
 
