@@ -22,7 +22,8 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 ## Publications 
 ### Conference Articles 
 * **TGLib: An Open-Source Library for Temporal Graph Analysis**  
-Lutz Oettershagen, Petra Mutzel, 2022  
+Lutz Oettershagen, Petra Mutzel  
+[ICDM'22 Open Project Forum](https://www.cs.ucr.edu/~epapalex/icdm22-open-project-forum/) 2022  
 [arXiv:2209.12587](https://arxiv.org/abs/2209.12587)
 
 * **Inferring Tie Strength in Temporal Networks**  
