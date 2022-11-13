@@ -15,7 +15,7 @@ Quick links to find me:
 
 ## CV
 
-You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/blob/master/cv/CV_Lutz_Oettershagen.pdf).
+You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/cv/CV_Lutz_Oettershagen.pdf).
 
 
 
@@ -82,8 +82,9 @@ Lutz Oettershagen, Nils Kriege, Christopher Morris, Petra Mutzel
 
 * **A Temporal Graphlet Kernel For Classifying Dissemination in Evolving Networks**  
 Lutz Oettershagen, Nils M. Kriege, Claude Jordan, Petra Mutzel  
-[[https://www.mlgworkshop.ml//|18th  International Workshop on Mining and Learning with Graphs]], 2022  
+[18th International Workshop on Mining and Learning with Graphs](https://www.mlgworkshop.ml/), 2022  
 [arXiv:2209.07332](https://arxiv.org/abs/2209.07332)  
 **Best paper award** 
+
 
 
