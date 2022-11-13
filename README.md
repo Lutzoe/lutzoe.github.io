@@ -17,7 +17,9 @@ Quick links to find me:
 
 You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/cv/CV_Lutz_Oettershagen.pdf).
 
-
+## Open-Source Software
+I am developing and maintaining
+the [**open-source library TGLib**](https://gitlab.com/tgpublic/tglib) for analyzing and processing temporal graphs.
 
 ## Publications 
 ### Conference Articles 
