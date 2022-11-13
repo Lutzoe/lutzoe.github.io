@@ -13,6 +13,8 @@ Quick links to find me:
 [Uni Bonn Website](https://ca.cs.uni-bonn.de/doku.php?id=people:oettershagen)  
 
 
+My Erdős number is at most 3 (via Giuseppe F. Italiano → Craig A. Tovey → Paul Erdős).
+
 ## CV
 
 You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/cv/CV_Lutz_Oettershagen.pdf).
