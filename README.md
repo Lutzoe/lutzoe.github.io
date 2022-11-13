@@ -90,6 +90,11 @@ Lutz Oettershagen, Nils M. Kriege, Claude Jordan, Petra Mutzel
 **Best paper award** 
 
 
+### Phd Thesis
+* **Temporal Graph Algorithms**  
+[Phd thesis](https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/10104), 2022  
+
+
 ## Teaching and Supervision
 
 ### Classes, Labs, and Seminars
