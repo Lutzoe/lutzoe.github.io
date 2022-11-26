@@ -19,10 +19,6 @@ My Erdős number is at most 3 (via Giuseppe F. Italiano → Craig A. Tovey → P
 
 You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/cv/CV_Lutz_Oettershagen.pdf).
 
-## Open-Source Software
-I am developing and maintaining
-the [**open-source library TGLib**](https://gitlab.com/tgpublic/tglib) for analyzing and processing temporal graphs.
-
 ## Publications 
 ### Conference Articles 
 * **TGLib: An Open-Source Library for Temporal Graph Analysis**  
@@ -96,6 +92,10 @@ Lutz Oettershagen, Nils M. Kriege, Claude Jordan, Petra Mutzel
 * **Temporal Graph Algorithms**  
 [Phd thesis](https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/10104), 2022  
 
+
+## Open-Source Software
+I am developing and maintaining
+the [**open-source library TGLib**](https://gitlab.com/tgpublic/tglib) for analyzing and processing temporal graphs.
 
 ## Teaching and Supervision
 
