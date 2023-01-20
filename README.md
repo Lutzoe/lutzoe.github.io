@@ -42,10 +42,6 @@ Lutz Oettershagen, Petra Mutzel and Nils Kriege
 [The ACM Web Conference (WWW)](https://www2022.thewebconf.org/), 2022  
 [arXiv:2202.03706](https://arxiv.org/abs/2202.03706)
 
-* **An Index for Single Source All Destinations Distance Queries in Temporal Graphs**  
-Lutz Oettershagen, Petra Mutzel, 2021  
-[arXiv:2111.10095](https://arxiv.org/abs/2111.10095)
-
 * **Spatio-Temporal Top-k Similarity Search for Trajectories in Graphs**  
 Lutz Oettershagen, Anne Driemel, Petra Mutzel, 2021  
 [arXiv:2009.06778](https://arxiv.org/abs/2009.06778)
