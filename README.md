@@ -24,12 +24,12 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 
 * **An Index For Temporal Closeness Computation in Evolving Graphs**  
 Lutz Oettershagen, Petra Mutzel  
-[SIAM International Conference on Data Mining (SDM23)](https://www.siam.org/conferences/cm/conference/sdm23), 2023  
+[SIAM International Conference on Data Mining (SDM)](https://www.siam.org/conferences/cm/conference/sdm23), 2023  
 [arXiv:2111.10095](https://arxiv.org/abs/2111.10095)
 
 * **A Temporal Graphlet Kernel For Classifying Dissemination in Evolving Networks**  
 Lutz Oettershagen, Nils M. Kriege, Claude Jordan, Petra Mutzel  
-[SIAM International Conference on Data Mining (SDM23)](https://www.siam.org/conferences/cm/conference/sdm23), 2023  
+[SIAM International Conference on Data Mining (SDM)](https://www.siam.org/conferences/cm/conference/sdm23), 2023  
 [arXiv:2209.07332](https://arxiv.org/abs/2209.07332)  
  
 * **Inferring Tie Strength in Temporal Networks**  
