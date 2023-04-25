@@ -11,7 +11,7 @@ Quick links to find me:
 
 [Google Scholar](https://scholar.google.com/citations?user=NnaJPcMAAAAJ&hl=en)  
 [DBLP](https://dblp.org/pid/217/2351.html)  
-[Uni Bonn Website](https://ca.cs.uni-bonn.de/doku.php?id=people:oettershagen)  
+[KTH Website](https://www.kth.se/profile/lutzo)  
 
 
 My Erdős number is at most 3 (via Giuseppe F. Italiano → Craig A. Tovey → Paul Erdős).
