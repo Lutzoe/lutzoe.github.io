@@ -47,20 +47,21 @@ Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano
 * **Temporal Walk Centrality: Ranking Nodes in Evolving Networks**  
 Lutz Oettershagen, Petra Mutzel and Nils Kriege  
 [The ACM Web Conference (WWW)](https://www2022.thewebconf.org/), 2022  
-[arXiv:2202.03706](https://arxiv.org/abs/2202.03706) [(slides)](https://gitlab.com/tgpublic/twc/-/raw/main/slides.pdf?inline=false) [(code)](https://gitlab.com/tgpublic/twc)
+[arXiv:2202.03706](https://arxiv.org/abs/2202.03706) [(slides)](https://gitlab.com/tgpublic/twc/-/raw/main/slides.pdf?ref_type=heads) [(code)](https://gitlab.com/tgpublic/twc)
 
 * **Spatio-Temporal Top-k Similarity Search for Trajectories in Graphs**  
 Lutz Oettershagen, Anne Driemel, Petra Mutzel, 2021  
-[arXiv:2009.06778](https://arxiv.org/abs/2009.06778)
+[arXiv:2009.06778](https://arxiv.org/abs/2009.06778) [(code)](https://gitlab.com/tgpublic/topktraj)
 
 * **Efficient Top-k Temporal Closeness Calculation in Temporal Networks**  
 Lutz Oettershagen, Petra Mutzel  
-[IEEE International Conference on Data Mining (ICDM)](http://icdm2020.bigke.org/), 2020
+[IEEE International Conference on Data Mining (ICDM)](http://icdm2020.bigke.org/), 2020  
+[(slides)](https://gitlab.com/tgpublic/tgcloseness/-/raw/master/slides.pdf?ref_type=heads) [(code)](https://gitlab.com/tgpublic/tgcloseness)
 
 * **Temporal Graph Kernels for Classifying Dissemination Processes**  
 Lutz Oettershagen, Nils Kriege, Christopher Morris, Petra Mutzel  
 [SIAM International Conference on Data Mining (SDM)](https://www.siam.org/conferences/cm/conference/sdm20), 2020  
-[arXiv:1911.05496](https://arxiv.org/abs/1911.05496)
+[arXiv:1911.05496](https://arxiv.org/abs/1911.05496) [(code)](https://gitlab.com/tgpublic/tgkernel)
 
 * **On the Enumeration of Bicriteria Temporal Paths**  
 Petra Mutzel, Lutz Oettershagen  
