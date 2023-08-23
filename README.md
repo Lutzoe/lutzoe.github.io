@@ -37,7 +37,7 @@ Lutz Oettershagen, Petra Mutzel
 * **A Temporal Graphlet Kernel For Classifying Dissemination in Evolving Networks**  
 Lutz Oettershagen, Nils M. Kriege, Claude Jordan, Petra Mutzel  
 [SIAM International Conference on Data Mining (SDM)](https://www.siam.org/conferences/cm/conference/sdm23), 2023  
-[arXiv:2209.07332](https://arxiv.org/abs/2209.07332)  
+[arXiv:2209.07332](https://arxiv.org/abs/2209.07332) [(slides)](https://gitlab.com/tgpublic/tgraphlet/-/raw/main/A%20Temporal%20Graphlet%20Kernel%20for%20Classifying%20Dissemination%20in%20Evolving%20Networks.pdf?ref_type=heads) [(code)](https://gitlab.com/tgpublic/tgraphlet)
  
 * **Inferring Tie Strength in Temporal Networks**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano  
