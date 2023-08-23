@@ -27,7 +27,7 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 * **A Higher-Order Temporal H-Index for Evolving Networks**  
 Lutz Oettershagen, Nils M. Kriege, Petra Mutzel  
 [ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)](https://kdd.org/kdd2023/), 2023  
-[arXiv:2305.16001](https://arxiv.org/abs/2305.16001)
+[arXiv:2305.16001](https://arxiv.org/abs/2305.16001) [(slides)](https://gitlab.com/tgpublic/tgh/-/raw/main/kdd23_slides.pdf?ref_type=heads) [(code)](https://gitlab.com/tgpublic/tgh)
 
 * **An Index For Temporal Closeness Computation in Evolving Graphs**  
 Lutz Oettershagen, Petra Mutzel  
