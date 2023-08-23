@@ -42,12 +42,12 @@ Lutz Oettershagen, Nils M. Kriege, Claude Jordan, Petra Mutzel
 * **Inferring Tie Strength in Temporal Networks**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano  
 [European Conference on Machine Learning and Principles and Practice of Knowledge Discovery (ECML PKDD)](https://2022.ecmlpkdd.org/), 2022  
-[arXiv:2206.11705](https://arxiv.org/abs/2206.11705)
+[arXiv:2206.11705](https://arxiv.org/abs/2206.11705) [(slides)](https://gitlab.com/tgpublic/tgstc/-/raw/main/slides.pdf?ref_type=heads) [(code)](https://gitlab.com/tgpublic/tgstc)
 
 * **Temporal Walk Centrality: Ranking Nodes in Evolving Networks**  
 Lutz Oettershagen, Petra Mutzel and Nils Kriege  
 [The ACM Web Conference (WWW)](https://www2022.thewebconf.org/), 2022  
-[arXiv:2202.03706](https://arxiv.org/abs/2202.03706)
+[arXiv:2202.03706](https://arxiv.org/abs/2202.03706) [(slides)](https://gitlab.com/tgpublic/twc/-/raw/main/slides.pdf?inline=false) [(code)](https://gitlab.com/tgpublic/twc)
 
 * **Spatio-Temporal Top-k Similarity Search for Trajectories in Graphs**  
 Lutz Oettershagen, Anne Driemel, Petra Mutzel, 2021  
