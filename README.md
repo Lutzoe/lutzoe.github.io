@@ -32,7 +32,7 @@ Lutz Oettershagen, Nils M. Kriege, Petra Mutzel
 * **An Index For Temporal Closeness Computation in Evolving Graphs**  
 Lutz Oettershagen, Petra Mutzel  
 [SIAM International Conference on Data Mining (SDM)](https://www.siam.org/conferences/cm/conference/sdm23), 2023  
-[arXiv:2111.10095](https://arxiv.org/abs/2111.10095)
+[arXiv:2111.10095](https://arxiv.org/abs/2111.10095) [(slides)](https://gitlab.com/tgpublic/tgindex/-/raw/main/slides.pdf?ref_type=heads) [(code)](https://gitlab.com/tgpublic/tgindex)
 
 * **A Temporal Graphlet Kernel For Classifying Dissemination in Evolving Networks**  
 Lutz Oettershagen, Nils M. Kriege, Claude Jordan, Petra Mutzel  
