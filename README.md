@@ -24,6 +24,10 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 ### Conference Articles 
 
 
+* **Temporal Network Core Decomposition and Community Search**  
+Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano, 2023  
+[arXiv:2309.11843](https://arxiv.org/abs/2309.11843) [(code)](https://gitlab.com/tgpublic/tgkdc)
+
 * **A Higher-Order Temporal H-Index for Evolving Networks**  
 Lutz Oettershagen, Nils M. Kriege, Petra Mutzel  
 [ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)](https://kdd.org/kdd2023/), 2023  
