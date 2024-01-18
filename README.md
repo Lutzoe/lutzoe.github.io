@@ -89,8 +89,13 @@ Petra Mutzel, Lutz Oettershagen
 
 ### Journal Articles 
 
+* **Inferring Tie Strength in Temporal Networks**  
+Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano    
+Under review.  
+[arXiv:2206.11705](https://arxiv.org/abs/2206.11705) 
+
 * **Computing Top-k Temporal Closeness in Temporal Networks**  
-Lutz Oettershagen, Petra Mutzel.  
+Lutz Oettershagen, Petra Mutzel  
 [Knowledge and Information Systems](https://doi.org/10.1007/s10115-021-01639-4), Springer, 2022
 
 * **Classifying Dissemination Processes in Temporal Graphs**  
