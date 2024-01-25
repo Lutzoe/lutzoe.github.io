@@ -28,6 +28,9 @@ Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github
 ## Publications 
 ### Conference Articles 
 
+* **Finding Densest Subgraphs with Edge-Color Constraints**  
+Lutz Oettershagen, Honglian Wang, Aristides Gionis, 2024  
+**Accepted at WebConf'24**
 
 * **Temporal Network Core Decomposition and Community Search**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano, 2023  
