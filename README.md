@@ -30,6 +30,7 @@ Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github
 
 * **Finding Densest Subgraphs with Edge-Color Constraints**  
 Lutz Oettershagen, Honglian Wang, Aristides Gionis, 2024  
+[arXiv:2402.09124](https://arxiv.org/abs/2402.09124) [(code)](https://gitlab.com/densest/diverse)  
 **Accepted at WebConf'24**
 
 * **Temporal Network Core Decomposition and Community Search**  
