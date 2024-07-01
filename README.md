@@ -1,10 +1,12 @@
 # Dr. rer. nat. Lutz Oettershagen
 
-I am an [assistant professor at Liverpool University](https://www.liverpool.ac.uk/computer-science/), Liverpool, UK.
-Until the end of June 2024, I was a [postdoctoral researcher at the KTH Royal Institute of Technology](https://www.kth.se/), Stockholm, Sweden, working with Prof. Dr. Aristides Gionis,
-and until the end of March 2023, I was a [postdoctoral researcher at the Lamarr Institut and the University of Bonn](https://ca.cs.uni-bonn.de//doku.php), Bonn, Germany, working with Prof. Dr. Petra Mutzel.
+I am an [lecturer (assistant professor in US terms) at Liverpool University](https://www.liverpool.ac.uk/computer-science/), Liverpool, UK.
 
 My primary research area is graph data mining, algorithms for data analysis, and machine learning for graphs. I put a strong focus on mathematical and computational foundations as well as the engineering and application of efficient algorithmic data analysis on (dynamic) graphs for solving real-world problems. My work focuses on the computational analysis of static and temporal networks. In my research, I design and analyze methods for obtaining new knowledge from complex networks. 
+
+
+Until the end of June 2024, I was a [postdoctoral researcher at the KTH Royal Institute of Technology](https://www.kth.se/), Stockholm, Sweden, working with Prof. Dr. Aristides Gionis.
+Before that, I was a [postdoctoral researcher at the Lamarr Institut and the University of Bonn](https://ca.cs.uni-bonn.de//doku.php) in Bonn, Germany, working with Prof. Dr. Petra Mutzel.
 
 
 Quick links to find me:  
