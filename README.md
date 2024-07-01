@@ -1,9 +1,10 @@
 # Dr. rer. nat. Lutz Oettershagen
 
-I am a [postdoctoral researcher at the KTH Royal Institute of Technology](https://www.kth.se/), Stockholm, Sweden, working with Prof. Dr. Aristides Gionis.
-Until the end of March 2023, I was a [postdoctoral researcher at the Lamarr Institut and the University of Bonn](https://ca.cs.uni-bonn.de//doku.php), Bonn, Germany, working with Prof. Dr. Petra Mutzel.
+I am an [assistant professor at Liverpool University](https://www.liverpool.ac.uk/computer-science/), Liverpool, UK.
+Until the end of June 2024, I was a [postdoctoral researcher at the KTH Royal Institute of Technology](https://www.kth.se/), Stockholm, Sweden, working with Prof. Dr. Aristides Gionis,
+and until the end of March 2023, I was a [postdoctoral researcher at the Lamarr Institut and the University of Bonn](https://ca.cs.uni-bonn.de//doku.php), Bonn, Germany, working with Prof. Dr. Petra Mutzel.
 
-My primary research area is graph data mining, algorithms for data analysis, and machine learning for graphs. I put a strong focus on mathematical and computational foundations as well as the engineering and application of efficient algorithmic data analysis on dynamic graphs for solving real-world problems. My work focuses on the computational analysis of temporal networks, i.e., graph structures that change their topology over time. Prominent examples are dynamic social networks in which participants build and end friendships over time, communication networks like email networks in which emails correspond to instantaneous connections between users, or human contact networks modeling face-to-face contacts. In my research, I design and analyze methods for obtaining new knowledge from temporal networks. 
+My primary research area is graph data mining, algorithms for data analysis, and machine learning for graphs. I put a strong focus on mathematical and computational foundations as well as the engineering and application of efficient algorithmic data analysis on (dynamic) graphs for solving real-world problems. My work focuses on the computational analysis of static and temporal networks. In my research, I design and analyze methods for obtaining new knowledge from complex networks. 
 
 
 Quick links to find me:  
@@ -22,7 +23,7 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 
 ## Tutorial on Mining Temporal Networks
 
-Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe got accepted at the WebConf'24.
+Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe presented at the WebConf'24.
 
 
 ## Publications 
