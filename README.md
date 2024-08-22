@@ -24,6 +24,10 @@ My Erdős number is at most 3 (via Giuseppe F. Italiano → Craig A. Tovey → P
 You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/cv/CV_Lutz_Oettershagen.pdf).
 
 
+## Tutorial on Mining Temporal Networks
+
+Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe presented at the WebConf'24.
+
 
 ## Publications 
 ### Conference Articles 
@@ -123,10 +127,6 @@ Lutz Oettershagen, Nils M. Kriege, Claude Jordan, Petra Mutzel
 * **Temporal Graph Algorithms**  
 [Phd thesis](https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/10104), 2022  
 
-
-## Tutorial on Mining Temporal Networks
-
-Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe presented at the WebConf'24.
 
 
 ## Open-Source Software
