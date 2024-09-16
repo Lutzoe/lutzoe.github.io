@@ -32,6 +32,10 @@ Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github
 ## Publications 
 ### Conference Articles 
 
+* **Consistent Strong Triadic Closure in Multilayer Networks**  
+Lutz Oettershagen, Athanasios L. Konstantinidis, Fariba Ranjbarh, Giuseppe F. Italiano, 2024  
+[arXiv:2409.08405](https://arxiv.org/abs/2409.08405) [(code)](https://gitlab.com/multilayergraphs/multilayerstc)
+
 * **Finding Densest Subgraphs with Edge-Color Constraints**  
 Lutz Oettershagen, Honglian Wang, Aristides Gionis  
 [The ACM Web Conference (WWW)](https://www2024.thewebconf.org/), 2024  
