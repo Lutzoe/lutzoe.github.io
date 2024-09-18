@@ -2,7 +2,7 @@
 
 I am an [lecturer (assistant professor in US terms) at Liverpool University](https://www.liverpool.ac.uk/computer-science/), Liverpool, UK.
 
-My primary research area is graph data mining, algorithms for data analysis, and machine learning for graphs. I put a strong focus on mathematical and computational foundations as well as the engineering and application of efficient algorithmic data analysis on (dynamic) graphs for solving real-world problems. My work focuses on the computational analysis of static and temporal networks. In my research, I design and analyze methods for obtaining new knowledge from complex networks. 
+My primary research areas are graph data mining, algorithms for data analysis, and machine learning for graphs. I put a strong focus on mathematical and computational foundations as well as the engineering and application of efficient algorithmic data analysis on (dynamic) graphs for solving real-world problems. My work focuses on the computational analysis of static and temporal networks. In my research, I design and analyze methods for obtaining new knowledge from complex networks. 
 
 
 Until the end of June 2024, I was a [postdoctoral researcher at the KTH Royal Institute of Technology](https://www.kth.se/), Stockholm, Sweden, working with Prof. Dr. Aristides Gionis.
