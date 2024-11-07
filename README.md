@@ -2,7 +2,8 @@
 
 I am an [lecturer (assistant professor in US terms) at Liverpool University](https://www.liverpool.ac.uk/computer-science/), Liverpool, UK.
 
-My primary research areas are graph data mining, algorithms for data analysis, and machine learning for graphs. I put a strong focus on mathematical and computational foundations as well as the engineering and application of efficient algorithmic data analysis on (dynamic) graphs for solving real-world problems. My work focuses on the computational analysis of static and temporal networks. In my research, I design and analyze methods for obtaining new knowledge from complex networks. 
+My primary research areas are algorithmic data analysis, graph data mining, and machine learning for graphs.
+I put a strong focus on mathematical and computational foundations as well as the engineering and application of efficient algorithmic data analysis on (dynamic) graphs for solving real-world problems. My work focuses on the computational analysis of static and temporal networks. In my research, I design and analyze methods for obtaining new knowledge from complex networks.
 
 
 Until the end of June 2024, I was a [postdoctoral researcher at the KTH Royal Institute of Technology](https://www.kth.se/), Stockholm, Sweden, working with Prof. Dr. Aristides Gionis.
@@ -31,6 +32,11 @@ Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github
 
 ## Publications 
 ### Conference Articles 
+
+* **An Edge-Based Decomposition Framework for Temporal Networks**
+Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano, 2025
+[ACM International Conference on Web Search and Data Mining (WSDM)](https://www.wsdm-conference.org/2025)
+
 
 * **Consistent Strong Triadic Closure in Multilayer Networks**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Fariba Ranjbarh, Giuseppe F. Italiano, 2024  
