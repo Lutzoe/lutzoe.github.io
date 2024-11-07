@@ -33,7 +33,7 @@ Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github
 ## Publications 
 ### Conference Articles 
 
-* **An Edge-Based Decomposition Framework for Temporal Networks**
+* **An Edge-Based Decomposition Framework for Temporal Networks**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano, 2025  
 [ACM International Conference on Web Search and Data Mining (WSDM)](https://www.wsdm-conference.org/2025)
 
