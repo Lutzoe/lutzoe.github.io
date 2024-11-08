@@ -25,6 +25,14 @@ My Erdős number is at most 3 (via Giuseppe F. Italiano → Craig A. Tovey → P
 You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/cv/CV_Lutz_Oettershagen.pdf).
 
 
+## Open PhD Positions
+
+Are you based in the UK and passionate about advancing the field of theoretical computer science? The University of Liverpool invites applications for fully funded PhD positions, offering a scholarship that covers tuition fees along with a competitive stipend.
+
+If you are interested in exploring aspects of algorithmic data analysis with a focus on (temporal) graphs, this opportunity could be perfect for you. Your research will aim to develop efficient algorithms for analyzing static and dynamic networks, addressing both theoretical foundations and practical applications in computational graph analysis.
+
+If this aligns with your interests, please reach out for more details!
+
 ## Tutorial on Mining Temporal Networks
 
 Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe presented at the WebConf'24.
