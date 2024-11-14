@@ -42,9 +42,9 @@ Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github
 ### Conference Articles 
 
 * **An Edge-Based Decomposition Framework for Temporal Networks**  
-Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano, 2025  
-[ACM International Conference on Web Search and Data Mining (WSDM)](https://www.wsdm-conference.org/2025)
-
+Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano
+[ACM International Conference on Web Search and Data Mining (WSDM)](https://www.wsdm-conference.org/2025), 2025
+[arXiv:2309.11843](https://arxiv.org/abs/2309.11843) [(code)](https://gitlab.com/tgkd)
 
 * **Consistent Strong Triadic Closure in Multilayer Networks**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Fariba Ranjbarh, Giuseppe F. Italiano, 2024  
