@@ -55,10 +55,6 @@ Lutz Oettershagen, Honglian Wang, Aristides Gionis
 [The ACM Web Conference (WWW)](https://www2024.thewebconf.org/), 2024  
 [arXiv:2402.09124](https://arxiv.org/abs/2402.09124) [(code)](https://gitlab.com/densest/diverse)  
 
-* **Temporal Network Core Decomposition and Community Search**  
-Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano, 2023  
-[arXiv:2309.11843](https://arxiv.org/abs/2309.11843) [(code)](https://gitlab.com/tgpublic/tgkdc)
-
 * **A Higher-Order Temporal H-Index for Evolving Networks**  
 Lutz Oettershagen, Nils M. Kriege, Petra Mutzel  
 [ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)](https://kdd.org/kdd2023/), 2023  
