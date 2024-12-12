@@ -33,9 +33,11 @@ If you are interested in exploring aspects of algorithmic data analysis with a f
 
 If this aligns with your interests, please reach out for more details!
 
-## Tutorial on Mining Temporal Networks
+## Tutorials
 
-Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe presented at the WebConf'24.
+* Upcoming tutorial  on [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe presented at SDM 2025.
+
+* Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe presented at the WebConf'24.
 
 
 ## Publications 
