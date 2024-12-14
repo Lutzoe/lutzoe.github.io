@@ -35,7 +35,7 @@ If this aligns with your interests, please reach out for more details!
 
 ## Tutorials
 
-* Upcoming tutorial  on [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe presented at SDM 2025.
+* Upcoming tutorial  on [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe  at SDM 2025.
 
 * Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe presented at the WebConf'24.
 
