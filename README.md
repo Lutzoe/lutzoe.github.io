@@ -101,7 +101,7 @@ Petra Mutzel, Lutz Oettershagen
 
 * **Inferring Tie Strength in Temporal Networks**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano    
-Data Mining and Knowledge Discovery, Springer, 2025.
+Data Mining and Knowledge Discovery, Springer, 2025.  
 [arXiv:2206.11705](https://arxiv.org/abs/2206.11705) 
 
 * **Computing Top-k Temporal Closeness in Temporal Networks**  
