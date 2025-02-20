@@ -25,14 +25,6 @@ My Erdős number is at most 3 (via Giuseppe F. Italiano → Craig A. Tovey → P
 You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/cv/CV_Lutz_Oettershagen.pdf).
 
 
-## Open PhD Positions
-
-Are you based in the UK and passionate about advancing the field of theoretical computer science? The University of Liverpool invites applications for fully funded PhD positions, offering a scholarship that covers tuition fees along with a competitive stipend.
-
-If you are interested in exploring aspects of algorithmic data analysis with a focus on (temporal) graphs, this opportunity could be perfect for you. Your research will aim to develop efficient algorithms for analyzing static and dynamic networks, addressing both theoretical foundations and practical applications in computational graph analysis.
-
-If this aligns with your interests, please reach out for more details!
-
 
 ## Publications 
 ### Conference Articles 
@@ -109,7 +101,7 @@ Petra Mutzel, Lutz Oettershagen
 
 * **Inferring Tie Strength in Temporal Networks**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano    
-Under review.  
+Data Mining and Knowledge Discovery, Springer, 2025.
 [arXiv:2206.11705](https://arxiv.org/abs/2206.11705) 
 
 * **Computing Top-k Temporal Closeness in Temporal Networks**  
