@@ -30,11 +30,11 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 
 * **Fair Minimum Labeling: Efficient Temporal Network Activations for Reachability and Equity**  
 Lutz Oettershagen, Othon Michail  
-[NeurIPS](https://neurips.cc/virtual/2025/poster/116182), 2025
+[Conference on Neural Information Processing Systems (NeurIPS)](https://neurips.cc/virtual/2025/poster/116182), 2025
 
 * **Streaming Stochastic Submodular Maximization with On-Demand User Requests**  
 Honglian Wang, Sijing Tu, Lutz Oettershagen, Aristides Gionis  
-[NeurIPS](https://neurips.cc/virtual/2025/poster/115927), 2025
+[Conference on Neural Information Processing Systems (NeurIPS)](https://neurips.cc/virtual/2025/poster/115927), 2025
 
 * **An Edge-Based Decomposition Framework for Temporal Networks**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano  
