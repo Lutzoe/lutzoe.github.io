@@ -29,6 +29,14 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 ## Publications 
 ### Conference Articles 
 
+* **Fair Minimum Labeling: Efficient Temporal Network Activations for Reachability and Equity**
+Lutz Oettershagen, Othon Michail
+[Neurips 2025](https://neurips.cc/virtual/2025/poster/116182), 2025
+
+* **Streaming Stochastic Submodular Maximization with On-Demand User Requests**
+Honglian Wang, Sijing Tu, Lutz Oettershagen, Aristides Gionis
+[Neurips 2025](https://neurips.cc/virtual/2025/poster/115927), 2025
+
 * **An Edge-Based Decomposition Framework for Temporal Networks**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano  
 [ACM International Conference on Web Search and Data Mining (WSDM)](https://www.wsdm-conference.org/2025), 2025  
