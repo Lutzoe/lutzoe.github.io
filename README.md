@@ -1,6 +1,6 @@
 # Dr. rer. nat. Lutz Oettershagen
 
-I am an [assistant professor at Liverpool University](https://www.liverpool.ac.uk/people/lutz-oettershagen/), Liverpool, UK.
+I am an [assistant professor (lecturer) at Liverpool University](https://www.liverpool.ac.uk/people/lutz-oettershagen/), Liverpool, UK.
 
 My primary research areas are algorithmic data analysis, graph data mining, and machine learning for graphs.
 I put a strong focus on mathematical and computational foundations as well as the engineering and application of efficient algorithmic data analysis on (dynamic) graphs for solving real-world problems. My work focuses on the computational analysis of static and temporal networks. In my research, I design and analyze methods for obtaining new knowledge from complex networks.
