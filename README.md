@@ -153,4 +153,13 @@ the [**open-source library TGLib**](https://gitlab.com/tgpublic/tglib) for analy
 
 ## Teaching and Supervision
 
-Please refer to my [CV](https://github.com/Lutzoe/lutzoe.github.io/raw/master/cv/CV_Lutz_Oettershagen.pdf) for an overview of my teaching experiences.
+### PhD Students
+
+* Ivan Qin (since 2025)
+
+### Modules 
+
+* [Network Mining and Analysis](https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/modules/comp324)
+
+### Previous and Other
+Please refer to my [CV](https://github.com/Lutzoe/lutzoe.github.io/raw/master/cv/CV_Lutz_Oettershagen.pdf) for an overview of my previous teaching experiences.
