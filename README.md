@@ -37,7 +37,7 @@ Lutz Oettershagen, Othon Michail
 
 * **Streaming Stochastic Submodular Maximization with On-Demand User Requests**  
 Honglian Wang, Sijing Tu, Lutz Oettershagen, Aristides Gionis  
-[Conference on Neural Information Processing Systems (NeurIPS)](https://neurips.cc/virtual/2025/poster/115927), 2025
+[Conference on Neural Information Processing Systems (NeurIPS)](https://neurips.cc/virtual/2025/poster/115927), 2025  
 [arXiv:2601.10901](https://arxiv.org/abs/2601.10901)
 
 * **An Edge-Based Decomposition Framework for Temporal Networks**  
