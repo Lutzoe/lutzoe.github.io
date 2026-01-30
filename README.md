@@ -34,7 +34,7 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 Lutz Oettershagen  
 [arXiv:2601.20989](https://arxiv.org/abs/2601.20989), 2026
 
-* ** Unsupervised Multi-Scale Gromov-Wasserstein Hypergraph Alignment**  
+* **Unsupervised Multi-Scale Gromov-Wasserstein Hypergraph Alignment**  
 Lutz Oettershagen, Honglian Wang, Aristides Gionis  
 [Openreview](https://openreview.net/pdf?id=OQaEsUCzTj), 2026
 
