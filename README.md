@@ -30,6 +30,14 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 ## Publications 
 ### Conference Articles 
 
+* **Top-k on a Budget: Adaptive Ranking with Weak and Strong Oracles**
+Lutz Oettershagen
+[arXiv:2601.20989](https://arxiv.org/abs/2601.20989), 2026
+
+* ** Unsupervised Multi-Scale Gromov-Wasserstein Hypergraph Alignment**
+Lutz Oettershagen, Honglian Wang, Aristides Gionis
+[Openreview](https://openreview.net/pdf?id=OQaEsUCzTj), 2026
+
 * **Fair Minimum Labeling: Efficient Temporal Network Activations for Reachability and Equity**  
 Lutz Oettershagen, Othon Michail  
 [Conference on Neural Information Processing Systems (NeurIPS)](https://neurips.cc/virtual/2025/poster/116182), 2025  
