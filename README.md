@@ -166,7 +166,8 @@ the [**open-source library TGLib**](https://gitlab.com/tgpublic/tglib) for analy
 
 ### PhD Students
 
-* Ivan Qin (since 2025)
+* Ivan Qin (since 2025)  
+* [Yang Xiang](https://yangxiang.site/)  
 
 ### Modules 
 
