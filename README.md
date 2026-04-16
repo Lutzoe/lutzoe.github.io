@@ -30,6 +30,11 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 ## Publications 
 ### Conference Articles 
 
+* **Efficient Banzhaf-Based Data Valuation for k-Nearest Neighbors Classification**  
+Guangyi Zhang, Lutz Oettershagen, Lixu Wang, Aristides Gionis  
+[International Conference on Very Large Data Bases](https://vldb.org/2026/), 2026
+
+
 * **Top-k on a Budget: Adaptive Ranking with Weak and Strong Oracles**  
 Lutz Oettershagen  
 [arXiv:2601.20989](https://arxiv.org/abs/2601.20989), 2026
