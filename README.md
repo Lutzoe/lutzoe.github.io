@@ -60,10 +60,6 @@ Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano
 [ACM International Conference on Web Search and Data Mining (WSDM)](https://www.wsdm-conference.org/2025), 2025  
 [arXiv:2309.11843](https://arxiv.org/abs/2309.11843) [(code)](https://gitlab.com/tgpublic/tgkd)
 
-* **Consistent Strong Triadic Closure in Multilayer Networks**  
-Lutz Oettershagen, Athanasios L. Konstantinidis, Fariba Ranjbarh, Giuseppe F. Italiano, 2024  
-[arXiv:2409.08405](https://arxiv.org/abs/2409.08405) [(code)](https://gitlab.com/multilayergraphs/multilayerstc)
-
 * **Finding Densest Subgraphs with Edge-Color Constraints**  
 Lutz Oettershagen, Honglian Wang, Aristides Gionis  
 [The ACM Web Conference (WWW)](https://www2024.thewebconf.org/), 2024  
@@ -129,6 +125,7 @@ Petra Mutzel, Lutz Oettershagen
 * **Consistent Tie-Strength Labeling for Multilayer Strong Triadic Closure**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Fariba Ranjbar, Giuseppe F. Italiano    
 [ECML PKDD Journal Track - Data Mining and Knowledge Discovery](https://ecmlpkdd.org/2026/), Springer, 2026  
+[arXiv:2409.08405](https://arxiv.org/abs/2409.08405) [(code)](https://gitlab.com/multilayergraphs/multilayerstc)  
 
 * **Inferring Tie Strength in Temporal Networks**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano    
