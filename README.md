@@ -28,6 +28,29 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 
 
 ## Publications 
+
+### Journal Articles 
+
+* **Consistent Tie-Strength Labeling for Multilayer Strong Triadic Closure**  
+Lutz Oettershagen, Athanasios L. Konstantinidis, Fariba Ranjbar, Giuseppe F. Italiano    
+[ECML PKDD journat track - Data Mining and Knowledge Discovery](https://ecmlpkdd.org/2026/), Springer, 2026  
+
+* **Inferring Tie Strength in Temporal Networks**  
+Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano    
+[Data Mining and Knowledge Discovery](https://link.springer.com/article/10.1007/s10618-025-01093-8), Springer, 2025  
+[arXiv:2206.11705](https://arxiv.org/abs/2206.11705) 
+
+* **Computing Top-k Temporal Closeness in Temporal Networks**  
+Lutz Oettershagen, Petra Mutzel  
+[Knowledge and Information Systems](https://doi.org/10.1007/s10115-021-01639-4), Springer, 2022  
+**Invited article**
+
+* **Classifying Dissemination Processes in Temporal Graphs**  
+Lutz Oettershagen, Nils Kriege, Christopher Morris, Petra Mutzel  
+[Big Data](https://www.liebertpub.com/doi/full/10.1089/big.2020.0086), Mary Ann Liebert, 2020  
+**Invited article**
+
+
 ### Conference Articles 
 
 * **Efficient Banzhaf-Based Data Valuation for k-Nearest Neighbors Classification**  
@@ -120,21 +143,6 @@ Petra Mutzel, Lutz Oettershagen
 Petra Mutzel, Lutz Oettershagen  
 [International Workshop on Combinatorial Algorithms (IWOCA)](https://www.comp.nus.edu.sg/~iwoca18/), 2018  
 [arXiv:1803.07515](https://arxiv.org/abs/1803.07515)
-
-### Journal Articles 
-
-* **Inferring Tie Strength in Temporal Networks**  
-Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano    
-[Data Mining and Knowledge Discovery](https://link.springer.com/article/10.1007/s10618-025-01093-8), Springer, 2025  
-[arXiv:2206.11705](https://arxiv.org/abs/2206.11705) 
-
-* **Computing Top-k Temporal Closeness in Temporal Networks**  
-Lutz Oettershagen, Petra Mutzel  
-[Knowledge and Information Systems](https://doi.org/10.1007/s10115-021-01639-4), Springer, 2022
-
-* **Classifying Dissemination Processes in Temporal Graphs**  
-Lutz Oettershagen, Nils Kriege, Christopher Morris, Petra Mutzel  
-[Big Data](https://www.liebertpub.com/doi/full/10.1089/big.2020.0086), Mary Ann Liebert, 2020
 
 
 ### Workshop Articles 
