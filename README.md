@@ -1,6 +1,5 @@
 # Dr. rer. nat. Lutz Oettershagen
 
-(Pronunciation: Loots URT-ers HAH-gen)
 
 I am an [assistant professor (lecturer) at Liverpool University](https://www.liverpool.ac.uk/people/lutz-oettershagen/), Liverpool, UK.
 
