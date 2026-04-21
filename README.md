@@ -33,7 +33,7 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 
 * **Consistent Tie-Strength Labeling for Multilayer Strong Triadic Closure**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Fariba Ranjbar, Giuseppe F. Italiano    
-[ECML PKDD journat track - Data Mining and Knowledge Discovery](https://ecmlpkdd.org/2026/), Springer, 2026  
+[ECML PKDD Journat Track - Data Mining and Knowledge Discovery](https://ecmlpkdd.org/2026/), Springer, 2026  
 
 * **Inferring Tie Strength in Temporal Networks**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano    
