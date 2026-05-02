@@ -32,7 +32,7 @@ if (!rootElement) {
 ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
+      <BrowserRouter basename="/tgatlas">
         <App />
       </BrowserRouter>
       {/* React Query DevTools - only visible in development */}
