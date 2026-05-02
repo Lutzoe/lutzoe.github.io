@@ -43,11 +43,16 @@ jobs:
           source: ./
           destination: ./_site
 
-      - name: Copy tgatlas build into site
-        run: cp -r tgatlas/dist _site/tgatlas
+      - name: Assemble final site
+        run: |
+          mkdir -p _deploy
+          cp -r _site/. _deploy/
+          cp -r tgatlas/dist _deploy/tgatlas
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: _deploy
 
   deploy:
     runs-on: ubuntu-latest
