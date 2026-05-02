@@ -31,7 +31,7 @@
     "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "clean": "rm -rf dist node_modules/.vite",
     "clean:all": "rm -rf dist node_modules package-lock.json",
-    "deploy": "npm run build && gh-pages -d dist -b deploy",
+    "deploy": "npm run build && gh-pages -d dist -b master --dest tgatlas",
     "test": "vitest --run",
     "test:coverage": "vitest --coverage",
     "test:ui": "vitest --ui"
