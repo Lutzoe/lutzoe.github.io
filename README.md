@@ -124,7 +124,7 @@ Petra Mutzel, Lutz Oettershagen
 * **Consistent Tie-Strength Labeling for Multilayer Strong Triadic Closure**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Fariba Ranjbar, Giuseppe F. Italiano    
 [ECML PKDD Journal Track - Data Mining and Knowledge Discovery](https://ecmlpkdd.org/2026/), Springer, 2026  
-[OpenAccess](https://link.springer.com/article/10.1007/s10618-026-01216-9) [(code)](https://gitlab.com/multilayergraphs/multilayerstc)  
+[Paper](https://link.springer.com/content/pdf/10.1007/s10618-026-01216-9.pdf) [(code)](https://gitlab.com/multilayergraphs/multilayerstc)  
 
 * **Inferring Tie Strength in Temporal Networks**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Giuseppe F. Italiano    
