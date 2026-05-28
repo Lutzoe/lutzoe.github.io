@@ -37,6 +37,11 @@ Guangyi Zhang, Lutz Oettershagen, Lixu Wang, Aristides Gionis
 [arxiv:2605.21033](http://arxiv.org/abs/2605.21033)
 
 
+* **A Hierarchical Quantized Tokenization Framework for Task-Adaptive Graph Representation Learning**  
+Yang Xiang, Li Fan, Chenke Yin, Lutz Oettershagen, Chengtao Ji  
+[arxiv:2510.12369](http://arxiv.org/abs/2510.12369)
+
+
 * **Top-k on a Budget: Adaptive Ranking with Weak and Strong Oracles**  
 Lutz Oettershagen  
 [arXiv:2601.20989](https://arxiv.org/abs/2601.20989), 2026
