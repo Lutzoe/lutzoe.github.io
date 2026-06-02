@@ -31,6 +31,12 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 
 ### Conference Articles 
 
+
+* **Query-Limited Community Recovery in Stochastic Block Models**  
+Sabyasachi Basu, Manuj Mukherjee, Lutz Oettershagen, Suhas Thejaswi  
+[arxiv:2606.02055](https://arxiv.org/abs/2606.02055)
+
+
 * **Efficient Banzhaf-Based Data Valuation for k-Nearest Neighbors Classification**  
 Guangyi Zhang, Lutz Oettershagen, Lixu Wang, Aristides Gionis  
 [International Conference on Very Large Data Bases (VLDB)](https://vldb.org/2026/), 2026  
