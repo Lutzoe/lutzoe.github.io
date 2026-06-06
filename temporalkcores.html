@@ -3,10 +3,914 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Temporal k-Cores: A Short Tutorial</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --ink: #1f2933;
+            --muted: #5d6978;
+            --line: #d7dde5;
+            --panel: #f5f7fa;
+            --accent: #006d77;
+            --accent-dark: #164e63;
+            --mark: #f0b429;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            color: var(--ink);
+            background: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.65;
+        }
+
+        a {
+            color: var(--accent-dark);
+            text-decoration-thickness: 0.08em;
+            text-underline-offset: 0.18em;
+        }
+
+        header {
+            border-bottom: 1px solid var(--line);
+            background:
+                linear-gradient(120deg, rgba(0, 109, 119, 0.08), rgba(240, 180, 41, 0.10)),
+                var(--white);
+        }
+
+        .wrap {
+            width: min(1080px, calc(100% - 40px));
+            margin: 0 auto;
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.85fr);
+            gap: 42px;
+            align-items: center;
+            padding: 56px 0 42px;
+        }
+
+        .eyebrow {
+            margin: 0 0 10px;
+            color: var(--accent);
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(2.2rem, 5vw, 4.7rem);
+            line-height: 1.02;
+            letter-spacing: 0;
+        }
+
+        .lede {
+            margin: 22px 0 0;
+            max-width: 730px;
+            color: #334155;
+            font-size: 1.16rem;
+        }
+
+        .graph-card {
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.72);
+            padding: 18px;
+            box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+        }
+
+        .timeline {
+            display: grid;
+            gap: 12px;
+        }
+
+        .time-row {
+            display: grid;
+            grid-template-columns: 44px 1fr;
+            gap: 12px;
+            align-items: center;
+            color: var(--muted);
+            font-size: 0.86rem;
+        }
+
+        .edges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .edge {
+            min-width: 72px;
+            border: 1px solid rgba(0, 109, 119, 0.35);
+            border-radius: 6px;
+            background: #eef8f8;
+            padding: 7px 9px;
+            color: var(--accent-dark);
+            font-weight: 650;
+            text-align: center;
+        }
+
+        nav {
+            border-bottom: 1px solid var(--line);
+            background: var(--white);
+        }
+
+        nav .wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            padding: 13px 0;
+            font-size: 0.94rem;
+        }
+
+        main {
+            padding: 36px 0 64px;
+        }
+
+        section {
+            margin: 0 0 46px;
+        }
+
+        h2 {
+            margin: 0 0 14px;
+            font-size: 1.75rem;
+            line-height: 1.2;
+            letter-spacing: 0;
+        }
+
+        h3 {
+            margin: 26px 0 8px;
+            font-size: 1.18rem;
+            line-height: 1.3;
+        }
+
+        p {
+            max-width: 850px;
+            margin: 0 0 14px;
+        }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(260px, 0.7fr);
+            gap: 28px;
+            align-items: start;
+        }
+
+        .note,
+        .definition {
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--panel);
+            padding: 18px 20px;
+        }
+
+        .definition {
+            border-left: 5px solid var(--accent);
+        }
+
+        .note p:last-child,
+        .definition p:last-child {
+            margin-bottom: 0;
+        }
+
+        .formula {
+            display: block;
+            margin: 14px 0;
+            border-radius: 8px;
+            background: #16232d;
+            color: #f8fafc;
+            padding: 14px 16px;
+            overflow-x: auto;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+            font-size: 0.94rem;
+            line-height: 1.55;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 14px;
+            margin-top: 18px;
+        }
+
+        .step {
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 16px;
+            background: var(--white);
+        }
+
+        .step strong {
+            display: block;
+            margin-bottom: 6px;
+            color: var(--accent-dark);
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 16px;
+            margin-top: 18px;
+        }
+
+        .comparison-item {
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--white);
+            padding: 16px 18px;
+        }
+
+        .comparison-item h3 {
+            margin-top: 0;
+        }
+
+        .core-figure {
+            margin: 24px 0 0;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: #fbfcfe;
+            padding: 18px;
+        }
+
+        .core-figure svg {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .core-figure figcaption {
+            margin-top: 12px;
+            color: var(--muted);
+            font-size: 0.92rem;
+        }
+
+        .core-edge {
+            stroke: #94a3b8;
+            stroke-width: 2.5;
+            stroke-linecap: round;
+        }
+
+        .core-edge.inner {
+            stroke: var(--accent-dark);
+            stroke-width: 3;
+        }
+
+        .core-node {
+            stroke: #ffffff;
+            stroke-width: 3;
+        }
+
+        .core-node.k1 {
+            fill: #cbd5e1;
+        }
+
+        .core-node.k2 {
+            fill: #f0b429;
+        }
+
+        .core-node.k3 {
+            fill: #006d77;
+        }
+
+        .core-label {
+            fill: #111827;
+            font-size: 15px;
+            font-weight: 700;
+            text-anchor: middle;
+            dominant-baseline: central;
+        }
+
+        .core-label.light {
+            fill: #ffffff;
+        }
+
+        .core-legend text {
+            fill: var(--muted);
+            font-size: 13px;
+            dominant-baseline: central;
+        }
+
+        ul {
+            padding-left: 1.2rem;
+        }
+
+        li {
+            margin: 0 0 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 14px;
+            font-size: 0.95rem;
+        }
+
+        th,
+        td {
+            border-bottom: 1px solid var(--line);
+            padding: 12px 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            color: #334155;
+            background: #f8fafc;
+            font-size: 0.84rem;
+            text-transform: uppercase;
+            letter-spacing: 0;
+        }
+
+        .tag {
+            display: inline-block;
+            border: 1px solid rgba(0, 109, 119, 0.28);
+            border-radius: 999px;
+            padding: 2px 8px;
+            color: var(--accent-dark);
+            background: #eef8f8;
+            font-size: 0.78rem;
+            font-weight: 650;
+            white-space: nowrap;
+        }
+
+        .small {
+            color: var(--muted);
+            font-size: 0.92rem;
+        }
+
+        footer {
+            border-top: 1px solid var(--line);
+            padding: 22px 0;
+            color: var(--muted);
+            font-size: 0.92rem;
+        }
+
+        @media (max-width: 820px) {
+            .hero,
+            .two-col,
+            .steps,
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero {
+                padding-top: 34px;
+            }
+
+            table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Welcome to my GitHub sub-page.</p>
+    <header>
+        <div class="wrap hero">
+            <div>
+                <p class="eyebrow">Tutorial</p>
+                <h1>Temporal k-Cores</h1>
+                <p class="lede">
+                    Temporal k-cores extend the idea of peeling a graph by degree to networks whose
+                    edges happen at specific times. The central question is simple: which nodes or
+                    interactions remain cohesive when we respect both graph structure and time?
+                </p>
+            </div>
+            <div class="graph-card" aria-label="Toy temporal network timeline">
+                <div class="timeline">
+                    <div class="time-row">
+                        <strong>t=1</strong>
+                        <div class="edges"><span class="edge">A-B</span><span class="edge">B-C</span></div>
+                    </div>
+                    <div class="time-row">
+                        <strong>t=2</strong>
+                        <div class="edges"><span class="edge">A-C</span><span class="edge">C-D</span></div>
+                    </div>
+                    <div class="time-row">
+                        <strong>t=5</strong>
+                        <div class="edges"><span class="edge">A-D</span><span class="edge">B-D</span></div>
+                    </div>
+                    <div class="time-row">
+                        <strong>t=9</strong>
+                        <div class="edges"><span class="edge">A-B</span><span class="edge">D-E</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="wrap">
+            <a href="#intro">Introduction</a>
+            <a href="#static">Static k-core recap</a>
+            <a href="#temporal">Temporal variants</a>
+            <a href="#techniques">Techniques</a>
+            <a href="#applications">Applications</a>
+            <a href="#papers">Papers</a>
+        </div>
+    </nav>
+
+    <main class="wrap">
+        <section id="intro">
+            <h2>Introduction</h2>
+            <p>
+                A temporal graph is a graph in which an edge is not simply present or absent:
+                it is present at a time, or during a time interval. An email, phone call,
+                retweet, contact, trade, or collaboration event is naturally modeled as an
+                edge with a timestamp.
+            </p>
+            <p>
+                Static graph analysis often aggregates all events into one graph and then runs
+                familiar tools such as degree, connected components, k-core decomposition, or
+                truss decomposition. Aggregation is useful, but it discards ordering and
+                temporal locality. Two users may look highly connected after six months of
+                aggregation even if their interactions never overlap in time.
+            </p>
+            <p>
+                For static graphs, the k-core problem is principled and very clear: there is
+                one graph, one degree condition, one maximality condition, a nested hierarchy,
+                and a simple linear-time peeling algorithm. This clarity is a major reason for
+                the popularity of k-core decomposition: it is easy to define, fast to compute,
+                and useful as both an analysis tool and a preprocessing primitive.
+            </p>
+            <p>
+                In temporal graphs, there is usually not one temporal k-core problem. There is
+                a class of related problems with different assumptions and goals. Some papers
+                assume snapshot sequences, some use timestamped multigraphs, some ask for
+                persistent intervals, some emphasize repeated interaction strength, and some
+                look for local bursts around individual events. The right definition depends
+                on the question being asked.
+            </p>
+        </section>
+
+        <section id="static">
+            <h2>Recap: Static k-Cores</h2>
+            <div class="two-col">
+                <div>
+                    <p>
+                        In a static graph G=(V,E), a k-core is a maximal induced subgraph in
+                        which every vertex has degree at least k inside that subgraph.
+                    </p>
+                    <p>
+                        The k-core decomposition assigns every vertex a core number: the largest
+                        k for which that vertex belongs to a k-core. Larger core numbers indicate
+                        vertices that sit deeper in the graph's nested hierarchy of cohesive
+                        regions.
+                    </p>
+                    <h3>The peeling algorithm</h3>
+                    <p>
+                        The standard algorithm repeatedly removes a vertex of minimum current
+                        degree and updates the degrees of its neighbors. This gives all core
+                        numbers in linear time O(n+m) for a graph with n vertices and m edges.
+                    </p>
+                </div>
+                <aside class="definition">
+                    <p><strong>Static k-core.</strong></p>
+                    <p>
+                        H is a k-core of G if every vertex in H has at least k neighbors in H,
+                        and H is inclusion-maximal with that property.
+                    </p>
+                    <span class="formula">degree_H(v) &gt;= k for every vertex v in H</span>
+                    <p class="small">
+                        The cores are nested: the (k+1)-core is contained in the k-core.
+                    </p>
+                </aside>
+            </div>
+            <figure class="core-figure">
+                <svg viewBox="0 0 760 360" role="img" aria-labelledby="static-core-title static-core-desc">
+                    <title id="static-core-title">Static k-core decomposition example</title>
+                    <desc id="static-core-desc">
+                        A small graph showing peripheral 1-shell vertices, a 2-core, and an inner 3-core.
+                    </desc>
+                    <line class="core-edge" x1="80" y1="80" x2="205" y2="120"></line>
+                    <line class="core-edge" x1="80" y1="280" x2="205" y2="240"></line>
+                    <line class="core-edge" x1="205" y1="120" x2="320" y2="95"></line>
+                    <line class="core-edge" x1="205" y1="120" x2="320" y2="245"></line>
+                    <line class="core-edge" x1="205" y1="240" x2="440" y2="95"></line>
+                    <line class="core-edge" x1="205" y1="240" x2="440" y2="245"></line>
+                    <line class="core-edge inner" x1="320" y1="95" x2="440" y2="95"></line>
+                    <line class="core-edge inner" x1="320" y1="95" x2="320" y2="245"></line>
+                    <line class="core-edge inner" x1="320" y1="95" x2="440" y2="245"></line>
+                    <line class="core-edge inner" x1="440" y1="95" x2="320" y2="245"></line>
+                    <line class="core-edge inner" x1="440" y1="95" x2="440" y2="245"></line>
+                    <line class="core-edge inner" x1="320" y1="245" x2="440" y2="245"></line>
+                    <line class="core-edge" x1="440" y1="95" x2="560" y2="120"></line>
+                    <line class="core-edge" x1="440" y1="245" x2="560" y2="120"></line>
+                    <line class="core-edge" x1="320" y1="95" x2="560" y2="240"></line>
+                    <line class="core-edge" x1="320" y1="245" x2="560" y2="240"></line>
+                    <line class="core-edge" x1="560" y1="120" x2="685" y2="80"></line>
+                    <line class="core-edge" x1="560" y1="240" x2="685" y2="280"></line>
+
+                    <circle class="core-node k1" cx="80" cy="80" r="25"></circle>
+                    <circle class="core-node k1" cx="80" cy="280" r="25"></circle>
+                    <circle class="core-node k2" cx="205" cy="120" r="29"></circle>
+                    <circle class="core-node k2" cx="205" cy="240" r="29"></circle>
+                    <circle class="core-node k3" cx="320" cy="95" r="31"></circle>
+                    <circle class="core-node k3" cx="440" cy="95" r="31"></circle>
+                    <circle class="core-node k3" cx="320" cy="245" r="31"></circle>
+                    <circle class="core-node k3" cx="440" cy="245" r="31"></circle>
+                    <circle class="core-node k2" cx="560" cy="120" r="29"></circle>
+                    <circle class="core-node k2" cx="560" cy="240" r="29"></circle>
+                    <circle class="core-node k1" cx="685" cy="80" r="25"></circle>
+                    <circle class="core-node k1" cx="685" cy="280" r="25"></circle>
+
+                    <text class="core-label" x="80" y="80">1</text>
+                    <text class="core-label" x="80" y="280">1</text>
+                    <text class="core-label" x="205" y="120">2</text>
+                    <text class="core-label" x="205" y="240">2</text>
+                    <text class="core-label light" x="320" y="95">3</text>
+                    <text class="core-label light" x="440" y="95">3</text>
+                    <text class="core-label light" x="320" y="245">3</text>
+                    <text class="core-label light" x="440" y="245">3</text>
+                    <text class="core-label" x="560" y="120">2</text>
+                    <text class="core-label" x="560" y="240">2</text>
+                    <text class="core-label" x="685" y="80">1</text>
+                    <text class="core-label" x="685" y="280">1</text>
+
+                    <g class="core-legend" transform="translate(255 322)">
+                        <circle class="core-node k1" cx="0" cy="0" r="10"></circle>
+                        <text x="18" y="0">1-shell</text>
+                        <circle class="core-node k2" cx="110" cy="0" r="10"></circle>
+                        <text x="128" y="0">2-core</text>
+                        <circle class="core-node k3" cx="220" cy="0" r="10"></circle>
+                        <text x="238" y="0">3-core</text>
+                    </g>
+                </svg>
+                <figcaption>
+                    A toy static graph with nested cores. Peripheral vertices peel first and have
+                    core number 1; the yellow vertices remain in the 2-core; the teal clique remains
+                    in the innermost 3-core.
+                </figcaption>
+            </figure>
+        </section>
+
+        <section id="temporal">
+            <h2>What Changes in Temporal Graphs?</h2>
+            <p>
+                Once edges have timestamps, there is no single canonical temporal k-core. The
+                right definition depends on what kind of temporal cohesion is meaningful for the
+                application.
+            </p>
+            <div class="steps">
+                <div class="step">
+                    <strong>Multiplicity</strong>
+                    Count repeated temporal edges between pairs of vertices. This captures strong
+                    repeated ties but may ignore when the repetitions happened.
+                </div>
+                <div class="step">
+                    <strong>Intervals</strong>
+                    Ask that a k-core exists throughout an interval or query range. This captures
+                    persistence, but can be restrictive for sparse snapshot sequences.
+                </div>
+                <div class="step">
+                    <strong>Temporal locality</strong>
+                    Judge each interaction by nearby interactions in time. This captures bursts
+                    and fine-grained activity without flattening the network.
+                </div>
+            </div>
+        </section>
+
+        <section id="techniques">
+            <h2>Comparison of Algorithmic Techniques</h2>
+            <p>
+                Temporal k-core papers differ not only in their definitions, but also in their
+                computational setting. Some compute a full decomposition once, some answer many
+                repeated queries, and some update results as the temporal graph changes.
+            </p>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h3>Peeling and decomposition</h3>
+                    <p>
+                        Static k-core uses vertex peeling. Temporal variants often adapt this
+                        idea to the chosen temporal object: vertices in snapshot projections,
+                        vertex-interval pairs in span-cores, or temporal edges in (k, Delta)-cores.
+                    </p>
+                    <p class="small">
+                        Example: the (k, Delta)-core peels temporal edges by local Delta-degree.
+                    </p>
+                </div>
+                <div class="comparison-item">
+                    <h3>Indexing for repeated queries</h3>
+                    <p>
+                        Historical, time-range, frequency-aware, and interaction-intensive queries
+                        often build indexes so that many future queries can be answered quickly.
+                        The tradeoff is preprocessing time and memory.
+                    </p>
+                    <p class="small">
+                        Examples: PHC-style historical indexes, MCTS core time shells, tree indexes
+                        for (k,h)-core queries, and core-frequency indexes.
+                    </p>
+                </div>
+                <div class="comparison-item">
+                    <h3>Online computation</h3>
+                    <p>
+                        Online algorithms avoid storing a large index and compute answers directly
+                        from the graph and query parameters. They are attractive for one-off queries
+                        or memory-constrained settings, but can be slower when many queries are
+                        issued.
+                    </p>
+                    <p class="small">
+                        Example: an online (k,h)-core query can avoid index construction but pays
+                        more per query.
+                    </p>
+                </div>
+                <div class="comparison-item">
+                    <h3>Incremental maintenance</h3>
+                    <p>
+                        Maintenance algorithms update core information after insertions or
+                        deletions instead of recomputing everything. This is useful when the graph
+                        changes continuously and queries must reflect the latest state.
+                    </p>
+                    <p class="small">
+                        Example: temporal core maintenance for (k,h)-cores under dynamic updates.
+                    </p>
+                </div>
+                <div class="comparison-item">
+                    <h3>Pruning and dominance</h3>
+                    <p>
+                        Interval-based models can have quadratically many candidate intervals.
+                        Algorithms therefore rely on containment, dominance, tightest intervals,
+                        maximality tests, and pruning rules to avoid redundant core computations.
+                    </p>
+                    <p class="small">
+                        Examples: maximal span-cores, time-range k-core queries, and user-defined
+                        temporal (k,X)-core queries.
+                    </p>
+                </div>
+                <div class="comparison-item">
+                    <h3>Approximation and optimization</h3>
+                    <p>
+                        Some tasks are not just decompositions but optimization problems, such as
+                        selecting diverse lasting cohesive subgraphs. These can become NP-hard, so
+                        greedy or bounded-search approaches with approximation guarantees or
+                        practical pruning are used.
+                    </p>
+                    <p class="small">
+                        Example: diversified top-r lasting cohesive subgraph mining uses
+                        approximation-oriented selection.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="applications">
+            <h2>Applications of Different Approaches</h2>
+            <p>
+                Different temporal core definitions are useful because they answer different
+                application questions. The same dataset can lead to different conclusions
+                depending on whether we care about repeated ties, persistence, bursts, or
+                query-time exploration.
+            </p>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h3>Repeated relationship strength</h3>
+                    <p>
+                        Multiplicity-based and interaction-intensive cores are appropriate when
+                        repeated contact is the signal. In a collaboration graph, this can identify
+                        groups with repeated joint work; in a communication graph, it can reveal
+                        pairs whose ties are not one-off events.
+                    </p>
+                </div>
+                <div class="comparison-item">
+                    <h3>Persistent communities</h3>
+                    <p>
+                        Span, lasting, stable, and persistent cores are useful when the goal is to
+                        find communities that remain cohesive over time, such as stable teams,
+                        recurring social groups, or long-running biological or ecological
+                        structures.
+                    </p>
+                </div>
+                <div class="comparison-item">
+                    <h3>Bursts and coordinated activity</h3>
+                    <p>
+                        Bursting cores and (k, Delta)-cores are useful when timing is the main
+                        signal. Examples include detecting coordinated misinformation campaigns,
+                        event-driven email bursts, market activity, or emergency-response
+                        communication patterns.
+                    </p>
+                </div>
+                <div class="comparison-item">
+                    <h3>Interactive graph analytics</h3>
+                    <p>
+                        Historical, time-range, user-defined, and frequency-aware query models are
+                        designed for analysts who issue many queries with different intervals,
+                        thresholds, or constraints. Indexes make exploratory analysis practical.
+                    </p>
+                </div>
+                <div class="comparison-item">
+                    <h3>Monitoring evolving systems</h3>
+                    <p>
+                        Maintenance algorithms fit streaming or frequently updated graphs, where
+                        recomputing all cores after every update is too expensive. Examples include
+                        online platforms, transaction networks, and communication services.
+                    </p>
+                </div>
+                <div class="comparison-item">
+                    <h3>Preprocessing and summarization</h3>
+                    <p>
+                        Temporal core numbers can summarize large temporal graphs before more
+                        expensive downstream tasks. They can narrow candidate regions for temporal
+                        community search, anomaly detection, visualization, or case-study analysis.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="papers">
+            <h2>Temporal k-Core and Related Papers</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Paper</th>
+                        <th>Category</th>
+                        <th>Model or task</th>
+                        <th>Algorithmic approach</th>
+                        <th>Main idea</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2015</td>
+                        <td><a href="https://www.cse.cuhk.edu.hk/~jcheng/papers/tempcore_bigdata15.pdf">Core Decomposition in Large Temporal Graphs</a><br><span class="small">Wu et al.</span></td>
+                        <td><span class="tag">interaction strength</span></td>
+                        <td><span class="tag">(k,h)-core</span></td>
+                        <td>Distributed decomposition</td>
+                        <td>Requires at least k neighbors and at least h temporal edges to each neighbor.</td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td><a href="https://doi.org/10.1109/ICDE.2018.00077">Persistent Community Search in Temporal Networks</a><br><span class="small">Li, Su, Qin, Yu, Dai</span></td>
+                        <td><span class="tag">persistence</span></td>
+                        <td><span class="tag">(theta,tau)-persistent k-core</span></td>
+                        <td>Reduction, branch-and-bound, pruning</td>
+                        <td>Searches for k-core-like communities that persist under a sliding-window condition.</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td><a href="https://doi.org/10.1016/j.ins.2019.11.003">Efficient Temporal Core Maintenance of Massive Graphs</a><br><span class="small">Bai, Chen, Wu</span></td>
+                        <td><span class="tag">dynamic maintenance</span></td>
+                        <td><span class="tag">(k,h)-core maintenance</span></td>
+                        <td>Incremental update algorithms</td>
+                        <td>Maintains temporal cores efficiently under insertions and deletions.</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td><a href="https://arxiv.org/abs/1910.03645">Span-core Decomposition for Temporal Networks: Algorithms and Applications</a><br><span class="small">Galimberti et al.</span></td>
+                        <td><span class="tag">interval persistence</span></td>
+                        <td><span class="tag">(k,I)-span-core</span></td>
+                        <td>Interval decomposition with containment pruning</td>
+                        <td>Associates each core with an interval I over which the coreness condition holds.</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td><a href="https://doi.org/10.1109/TBDATA.2020.2974849">Mining Stable Communities in Temporal Networks by Density-Based Clustering</a><br><span class="small">Qin et al.</span></td>
+                        <td><span class="tag">stability</span></td>
+                        <td><span class="tag">(mu,tau,epsilon)-stable core</span></td>
+                        <td>Density-based clustering with pruning</td>
+                        <td>Looks for vertices with enough similar neighbors across enough snapshots.</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td><a href="https://arxiv.org/abs/2009.01928">Efficient Algorithms to Mine Maximal Span-Trusses from Temporal Graphs</a><br><span class="small">Lotito, Montresor</span></td>
+                        <td><span class="tag">interval truss</span></td>
+                        <td><span class="tag">span-truss</span></td>
+                        <td>Maximal interval enumeration and pruning</td>
+                        <td>Temporal analogue of span-cores using k-truss cohesion instead of degree.</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td><a href="https://doi.org/10.1007/978-3-030-73216-5_23">Maximum (L,K)-Lasting Cores in Temporal Social Networks</a><br><span class="small">Hung, Tseng</span></td>
+                        <td><span class="tag">lasting community</span></td>
+                        <td><span class="tag">(L,K)-lasting core</span></td>
+                        <td>Search over duration-constrained cores</td>
+                        <td>Finds k-cores with k at least K that last for a specified duration L.</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td><a href="https://doi.org/10.1109/TBDATA.2021.3058294">Mining Diversified Top-r Lasting Cohesive Subgraphs on Temporal Networks</a><br><span class="small">Lin, Yuan, Li, Jin</span></td>
+                        <td><span class="tag">diverse selection</span></td>
+                        <td><span class="tag">lasting cohesive subgraphs</span></td>
+                        <td>Greedy approximation and DFS search</td>
+                        <td>Ranks lasting temporal cohesive subgraphs while encouraging diversity.</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td><a href="https://doi.org/10.14778/3476249.3476260">On Querying Historical k-Cores</a><br><span class="small">Yu, Wen, Qin, Zhang, Zhang, Lin</span></td>
+                        <td><span class="tag">historical query</span></td>
+                        <td><span class="tag">historical k-core query</span></td>
+                        <td>Index-based retrieval and maintenance</td>
+                        <td>Indexes and answers k-core queries over fixed historical intervals.</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td><a href="https://www.vldb.org/pvldb/vol15/p3911-wang.pdf">Mining Bursting Core in Large Temporal Graphs</a><br><span class="small">Qin et al.</span></td>
+                        <td><span class="tag">burst detection</span></td>
+                        <td><span class="tag">(l,delta)-bursting core</span></td>
+                        <td>Dynamic programming and dominance pruning</td>
+                        <td>Finds communities whose average degree is high during a sufficiently long burst.</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td><a href="https://openproceedings.org/2023/conf/edbt/paper-215.pdf">KWIQ: Answering k-Core Window Queries in Temporal Networks</a><br><span class="small">Momin, Kamal, Dixit, Ranu, Bagchi</span></td>
+                        <td><span class="tag">window query</span></td>
+                        <td><span class="tag">core-invariant nodes</span></td>
+                        <td>Orientation graph and pruning</td>
+                        <td>Finds nodes whose core number stays above a threshold throughout a window.</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td><a href="https://arxiv.org/abs/2301.03770">Scalable Time-Range k-Core Query on Temporal Graphs</a><br><span class="small">Yang, Zhong, Zhu, Qian, Liu, Yu</span></td>
+                        <td><span class="tag">time-range query</span></td>
+                        <td><span class="tag">time-range k-core query</span></td>
+                        <td>Temporal decomposition, TTI pruning, online query</td>
+                        <td>Returns distinct k-cores induced by subintervals of a query interval.</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td><a href="https://arxiv.org/abs/2305.16001">A Higher-Order Temporal H-Index for Evolving Networks</a><br><span class="small">Oettershagen, Kriege, Mutzel</span></td>
+                        <td><span class="tag">temporal ranking</span></td>
+                        <td><span class="tag">(eta,k)-pseudocore</span></td>
+                        <td>Recursive temporal H-index computation</td>
+                        <td>Uses a higher-order temporal H-index to identify components with strong communication capability.</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td><a href="https://arxiv.org/abs/2309.00361">A Unified and Scalable Algorithm Framework of User-Defined Temporal (k,X)-Core Query</a><br><span class="small">Zhong et al.</span></td>
+                        <td><span class="tag">unified query</span></td>
+                        <td><span class="tag">user-defined temporal core query</span></td>
+                        <td>Two-phase framework with metric-aware pruning</td>
+                        <td>Generalizes temporal k-core queries with additional user-defined constraints or objectives.</td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td><a href="https://doi.org/10.1007/s00778-025-00903-1">Querying Historical K-Cores in Large Temporal Graphs</a><br><span class="small">Yu, Wen, Yu, Qin, Zhang, Zhang, Lin</span></td>
+                        <td><span class="tag">historical query</span></td>
+                        <td><span class="tag">historical k-core query</span></td>
+                        <td>Index-based retrieval, pruning, index maintenance</td>
+                        <td>Journal version of the historical k-core query work with index-based retrieval, pruning, and index maintenance.</td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td><a href="https://doi.org/10.14778/3718057.3718063">On More Efficiently and Versatilely Querying Historical k-Cores</a><br><span class="small">Wang, Zhong, Zhu, Qian, Liu, Yu</span></td>
+                        <td><span class="tag">historical query</span></td>
+                        <td><span class="tag">core time shell</span></td>
+                        <td>MCTS index and core time shell hierarchy</td>
+                        <td>Introduces core time shells and an MCTS index for faster historical k-core queries and new "when" query variants.</td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td><a href="https://doi.org/10.1109/ICDE65448.2025.00179">Efficient Frequency-Aware k-Core Query on Temporal Graphs</a><br><span class="small">Du, Zhong, Zhu, Qian, Liu, Yu</span></td>
+                        <td><span class="tag">frequency query</span></td>
+                        <td><span class="tag">frequency-aware k-core</span></td>
+                        <td>Core-frequency index and skyline retrieval</td>
+                        <td>Requires k-core neighbors to have enough high-frequency interactions and indexes core frequencies for efficient queries.</td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td><a href="https://arxiv.org/abs/2309.11843">An Edge-Based Decomposition Framework for Temporal Networks</a><br><span class="small">Oettershagen, Konstantinidis, Italiano</span></td>
+                        <td><span class="tag">edge-local decomposition</span></td>
+                        <td><span class="tag">(k,Delta)-core and truss</span></td>
+                        <td>Temporal edge peeling and Delta-components</td>
+                        <td>Peels temporal edges by local temporal edge degree or temporal triangle support.</td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td><a href="https://doi.org/10.1007/s44443-025-00391-x">Mining Interaction-Intensive Cores in Temporal Graphs</a><br><span class="small">Zhou, Gong, Lu, Liang, Wen</span></td>
+                        <td><span class="tag">interaction query</span></td>
+                        <td><span class="tag">(k,h)-core query</span></td>
+                        <td>Online baseline, full index, tree indexes</td>
+                        <td>Builds compact tree-style indexes for querying interaction-intensive (k,h)-cores.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Choosing a Definition</h2>
+            <p>
+                Use a multiplicity-based core such as (k,h)-core when repeated interaction
+                strength matters more than the precise placement of timestamps. Use span,
+                lasting, persistent, or query-based cores when the target is an interval-level
+                question. Use edge-local definitions such as (k,Delta)-cores when the goal is to
+                capture fine-grained temporal neighborhoods, bursts, or temporally coordinated
+                activity.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            Last updated: June 2026. This page is a compact tutorial and reading guide, not an exhaustive survey.
+        </div>
+    </footer>
 </body>
 </html>
