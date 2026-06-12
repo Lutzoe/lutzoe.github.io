@@ -180,9 +180,11 @@ the [**open-source library TGLib**](https://gitlab.com/tgpublic/tglib) for analy
 
 ## Tutorials
 
-* Our tutorial  on [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe  at SDM 2025.
+* [Mining Cohesive Structures in Temporal Graphs](https://lutzoe.github.io/temporalkcores.html) invited tutorial at Dagstuhl seminar "Temporal Graphs: Structure, Algorithms, Applications".
 
-* Our tutorial on [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe presented at the WebConf'24.
+* [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe  at SDM 2025.
+
+* [Mining Temporal Networks](https://miningtemporalnetworks.github.io/) together with Aristides Gionis and Ilie Sarpe presented at the WebConf'24.
 
 
 ## Teaching and Supervision
