@@ -31,6 +31,10 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 
 ### Conference Articles 
 
+* **Linguistic Monoculture in LLM-Assisted Language Use**  
+Suhas Thejaswi, Juhi Kulshreshta, Lutz Oettershagen  
+[arxiv:2607.27134](https://arxiv.org/abs/2607.27134), 2026
+
 
 * **Query-Limited Community Recovery in Stochastic Block Models**  
 Sabyasachi Basu, Manuj Mukherjee, Lutz Oettershagen, Suhas Thejaswi  
