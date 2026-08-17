@@ -31,6 +31,11 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 
 ### Conference Articles 
 
+* **Unsupervised Multi-Scale Gromov-Wasserstein Hypergraph Alignment**  
+Lutz Oettershagen, Honglian Wang, Aristides Gionis  
+[IEEE International Conference on Data Mining (ICDM)](https://icdm2026.neu.edu.cn/), 2026
+
+
 * **Linguistic Monoculture in LLM-Assisted Language Use**  
 Suhas Thejaswi, Juhi Kulshreshta, Lutz Oettershagen  
 [arxiv:2607.27134](https://arxiv.org/abs/2607.27134), 2026
@@ -56,9 +61,6 @@ Yang Xiang, Li Fan, Chenke Yin, Lutz Oettershagen, Chengtao Ji
 Lutz Oettershagen  
 [arXiv:2601.20989](https://arxiv.org/abs/2601.20989), 2026
 
-* **Unsupervised Multi-Scale Gromov-Wasserstein Hypergraph Alignment**  
-Lutz Oettershagen, Honglian Wang, Aristides Gionis  
-[Openreview](https://openreview.net/pdf?id=OQaEsUCzTj), 2026
 
 * **Fair Minimum Labeling: Efficient Temporal Network Activations for Reachability and Equity**  
 Lutz Oettershagen, Othon Michail  
