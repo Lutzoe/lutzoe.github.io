@@ -1,4 +1,4 @@
-1# Dr. rer. nat. Lutz Oettershagen
+# Dr. rer. nat. Lutz Oettershagen
 
 
 I am an [assistant professor (lecturer) at Liverpool University](https://www.liverpool.ac.uk/people/lutz-oettershagen/), Liverpool, UK.
