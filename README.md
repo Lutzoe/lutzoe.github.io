@@ -36,6 +36,12 @@ Lutz Oettershagen, Honglian Wang, Aristides Gionis
 [IEEE International Conference on Data Mining (ICDM)](https://icdm2026.neu.edu.cn/), 2026
 
 
+* **Consistent Tie-Strength Labeling for Multilayer Strong Triadic Closure**  
+Lutz Oettershagen, Athanasios L. Konstantinidis, Fariba Ranjbar, Giuseppe F. Italiano    
+[ECML PKDD Journal Track - Data Mining and Knowledge Discovery](https://ecmlpkdd.org/2026/), Springer, 2026  
+[Paper](https://link.springer.com/content/pdf/10.1007/s10618-026-01216-9.pdf) [(code)](https://gitlab.com/multilayergraphs/multilayerstc)
+
+
 * **Linguistic Monoculture in LLM-Assisted Language Use**  
 Suhas Thejaswi, Juhi Kulshreshta, Lutz Oettershagen  
 [arxiv:2607.27134](https://arxiv.org/abs/2607.27134), 2026
