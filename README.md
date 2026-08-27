@@ -1,5 +1,3 @@
-# Lutz Oettershagen
-
 I am a [Lecturer (Assistant Professor) in Algorithms and Computing Systems at the University of Liverpool](https://www.liverpool.ac.uk/people/lutz-oettershagen/), UK.
 
 My research is in **algorithmic data analysis**, with a particular focus on **graphs and networks**. I develop efficient algorithms and learning methods for extracting structure and knowledge from complex and evolving data, combining mathematical and computational foundations with scalable methods for real-world problems.
