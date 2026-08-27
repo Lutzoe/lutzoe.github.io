@@ -1,24 +1,18 @@
 # Lutz Oettershagen
 
+I am a [Lecturer (Assistant Professor) in Algorithms and Computing Systems at the University of Liverpool](https://www.liverpool.ac.uk/people/lutz-oettershagen/), UK.
 
-I am an [lecturer (assistant professor) at University of Liverpool](https://www.liverpool.ac.uk/people/lutz-oettershagen/), Liverpool, UK.
+My research is in **algorithmic data analysis**, with a particular focus on **graphs and networks**. I develop efficient algorithms and learning methods for extracting structure and knowledge from complex and evolving data, combining mathematical and computational foundations with scalable methods for real-world problems.
 
-My primary research areas are algorithmic data analysis, graph data mining, and machine learning for graphs.
-I put a strong focus on mathematical and computational foundations as well as the engineering and application of efficient algorithmic data analysis on (dynamic) graphs for solving real-world problems. My work focuses on the computational analysis of static and temporal networks. In my research, I design and analyze methods for obtaining new knowledge from complex networks.
+My current research interests include **temporal and dynamic networks**, **graph and network mining**, **graph representation learning**, and **adaptive and resource-aware algorithms**. I am particularly interested in algorithmic problems where information, computation, or interactions are limited or costly, as well as in multilayer and higher-order network data.
 
+Previously, I was a postdoctoral researcher at [KTH Royal Institute of Technology](https://www.kth.se/) in Stockholm, Sweden, (hosted by Prof. Dr. Aristides Gionis) and at the [Lamarr Institute and the University of Bonn](https://ca.cs.uni-bonn.de/doku.php) in Bonn, Germany (hosted by Prof. Dr. Petra Mutzel).
 
-Until the end of June 2024, I was a [postdoctoral researcher at the KTH Royal Institute of Technology](https://www.kth.se/), Stockholm, Sweden, working with Prof. Dr. Aristides Gionis.
-Before that, I was a [postdoctoral researcher at the Lamarr Institut and the University of Bonn](https://ca.cs.uni-bonn.de//doku.php) in Bonn, Germany, working with Prof. Dr. Petra Mutzel.
-
-
-Quick links to find me:  
+**Profiles:** [Google Scholar](https://scholar.google.com/citations?user=NnaJPcMAAAAJ&hl=en) · [DBLP](https://dblp.org/pid/217/2351.html)  
 
 
-[Google Scholar](https://scholar.google.com/citations?user=NnaJPcMAAAAJ&hl=en)  
-[DBLP](https://dblp.org/pid/217/2351.html)  
+My Erdős number is at most 3 (via Giuseppe F. Italiano → Craig A. Tovey → Paul Erdős).  
 
-
-My Erdős number is at most 3 (via Giuseppe F. Italiano → Craig A. Tovey → Paul Erdős).
 
 ## CV
 
