@@ -35,6 +35,10 @@ Sabyasachi Basu, Manuj Mukherjee, Lutz Oettershagen, Suhas Thejaswi
 Lutz Oettershagen  
 [arXiv:2601.20989](https://arxiv.org/abs/2601.20989), 2026
 
+* **A Hierarchical Quantized Tokenization Framework for Task-Adaptive Graph Representation Learning**  
+Yang Xiang, Li Fan, Chenke Yin, Lutz Oettershagen, Chengtao Ji  
+[arxiv:2510.12369](http://arxiv.org/abs/2510.12369), 2026
+
 
 
 ### Conference Articles 
@@ -54,11 +58,6 @@ Lutz Oettershagen, Athanasios L. Konstantinidis, Fariba Ranjbar, Giuseppe F. Ita
 Guangyi Zhang, Lutz Oettershagen, Lixu Wang, Aristides Gionis  
 [International Conference on Very Large Data Bases (VLDB)](https://vldb.org/2026/), 2026  
 [arxiv:2605.21033](http://arxiv.org/abs/2605.21033)
-
-
-* **A Hierarchical Quantized Tokenization Framework for Task-Adaptive Graph Representation Learning**  
-Yang Xiang, Li Fan, Chenke Yin, Lutz Oettershagen, Chengtao Ji  
-[arxiv:2510.12369](http://arxiv.org/abs/2510.12369), 2026
 
 
 * **Fair Minimum Labeling: Efficient Temporal Network Activations for Reachability and Equity**  
