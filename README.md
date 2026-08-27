@@ -20,6 +20,22 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 
 ## Publications 
 
+### Preprints
+
+* **Linguistic Monoculture in LLM-Assisted Language Use**  
+Suhas Thejaswi, Juhi Kulshreshta, Lutz Oettershagen  
+[arxiv:2607.27134](https://arxiv.org/abs/2607.27134), 2026
+
+
+* **Query-Limited Community Recovery in Stochastic Block Models**  
+Sabyasachi Basu, Manuj Mukherjee, Lutz Oettershagen, Suhas Thejaswi  
+[arxiv:2606.02055](https://arxiv.org/abs/2606.02055), 2026
+
+* **Top-k on a Budget: Adaptive Ranking with Weak and Strong Oracles**  
+Lutz Oettershagen  
+[arXiv:2601.20989](https://arxiv.org/abs/2601.20989), 2026
+
+
 
 ### Conference Articles 
 
@@ -34,16 +50,6 @@ Lutz Oettershagen, Athanasios L. Konstantinidis, Fariba Ranjbar, Giuseppe F. Ita
 [Paper](https://link.springer.com/content/pdf/10.1007/s10618-026-01216-9.pdf) [(code)](https://gitlab.com/multilayergraphs/multilayerstc)
 
 
-* **Linguistic Monoculture in LLM-Assisted Language Use**  
-Suhas Thejaswi, Juhi Kulshreshta, Lutz Oettershagen  
-[arxiv:2607.27134](https://arxiv.org/abs/2607.27134), 2026
-
-
-* **Query-Limited Community Recovery in Stochastic Block Models**  
-Sabyasachi Basu, Manuj Mukherjee, Lutz Oettershagen, Suhas Thejaswi  
-[arxiv:2606.02055](https://arxiv.org/abs/2606.02055), 2026
-
-
 * **Efficient Banzhaf-Based Data Valuation for k-Nearest Neighbors Classification**  
 Guangyi Zhang, Lutz Oettershagen, Lixu Wang, Aristides Gionis  
 [International Conference on Very Large Data Bases (VLDB)](https://vldb.org/2026/), 2026  
@@ -53,11 +59,6 @@ Guangyi Zhang, Lutz Oettershagen, Lixu Wang, Aristides Gionis
 * **A Hierarchical Quantized Tokenization Framework for Task-Adaptive Graph Representation Learning**  
 Yang Xiang, Li Fan, Chenke Yin, Lutz Oettershagen, Chengtao Ji  
 [arxiv:2510.12369](http://arxiv.org/abs/2510.12369), 2026
-
-
-* **Top-k on a Budget: Adaptive Ranking with Weak and Strong Oracles**  
-Lutz Oettershagen  
-[arXiv:2601.20989](https://arxiv.org/abs/2601.20989), 2026
 
 
 * **Fair Minimum Labeling: Efficient Temporal Network Activations for Reachability and Equity**  
@@ -178,8 +179,7 @@ Lutz Oettershagen, Nils M. Kriege, Claude Jordan, Petra Mutzel
 
 
 ## Open-Source Software
-I am developing and maintaining
-the [**open-source library TGLib**](https://gitlab.com/tgpublic/tglib) for analyzing and processing temporal graphs.
+I develop and maintain [**TGLib**](https://gitlab.com/tgpublic/tglib), an open-source C++ library for analyzing and processing temporal graphs.
 
 
 ## Tutorials
