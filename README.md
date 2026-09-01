@@ -45,12 +45,13 @@ Yang Xiang, Li Fan, Chenke Yin, Lutz Oettershagen, Chengtao Ji
 
 * **Unsupervised Multi-Scale Gromov-Wasserstein Hypergraph Alignment**  
 Lutz Oettershagen, Honglian Wang, Aristides Gionis  
-[IEEE International Conference on Data Mining (ICDM)](https://icdm2026.neu.edu.cn/), 2026
+[IEEE International Conference on Data Mining (ICDM)](https://icdm2026.neu.edu.cn/), 2026  
+[arxiv:2608.29635](http://arxiv.org/abs/2608.29635)
 
 
 * **Consistent Tie-Strength Labeling for Multilayer Strong Triadic Closure**  
 Lutz Oettershagen, Athanasios L. Konstantinidis, Fariba Ranjbar, Giuseppe F. Italiano    
-[ECML PKDD Journal Track - Data Mining and Knowledge Discovery](https://ecmlpkdd.org/2026/), Springer, 2026  
+[ECML PKDD Journal Track - Data Mining and Knowledge Discovery](https://ecmlpkdd.org/2026/), 2026  
 [Paper](https://link.springer.com/content/pdf/10.1007/s10618-026-01216-9.pdf) [(code)](https://gitlab.com/multilayergraphs/multilayerstc)
 
 
