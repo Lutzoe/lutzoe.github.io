@@ -4,7 +4,8 @@ My research is in **algorithmic data analysis**, with a particular focus on **gr
 
 My current research interests include **temporal and dynamic networks**, **graph and network mining**, **graph representation learning**, and **adaptive and resource-aware algorithms**. I am particularly interested in algorithmic problems where information, computation, or interactions are limited or costly, as well as in multilayer and higher-order network data.
 
-Previously, I was a postdoctoral researcher at [KTH Royal Institute of Technology](https://www.kth.se/) in Stockholm, Sweden, (hosted by Prof. Dr. Aristides Gionis) and at the [Lamarr Institute and the University of Bonn](https://ca.cs.uni-bonn.de/doku.php) in Bonn, Germany (hosted by Prof. Dr. Petra Mutzel).
+I received my PhD from the [University of Bonn](https://www.uni-bonn.de/en), where I worked with Petra Mutzel and subsequently continued as a postdoctoral researcher. I later joined [KTH Royal Institute of Technology](https://www.kth.se/) in Stockholm as a postdoctoral researcher, working with Aristides Gionis.
+
 
 **Profiles:** [Google Scholar](https://scholar.google.com/citations?user=NnaJPcMAAAAJ&hl=en) · [DBLP](https://dblp.org/pid/217/2351.html)  
 
