@@ -23,6 +23,11 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 
 ### Preprints
 
+* **Fair Top-k Katz Centrality via Graph Design**  
+Ivan Qin, Prudence Wong, Lutz Oettershagen  
+[arxiv:2609.03899](https://arxiv.org/abs/2609.03899), 2026
+
+
 * **Linguistic Monoculture in LLM-Assisted Language Use**  
 Suhas Thejaswi, Juhi Kulshreshta, Lutz Oettershagen  
 [arxiv:2607.27134](https://arxiv.org/abs/2607.27134), 2026
