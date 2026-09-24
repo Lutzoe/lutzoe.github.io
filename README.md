@@ -33,10 +33,6 @@ Suhas Thejaswi, Juhi Kulshreshta, Lutz Oettershagen
 [arxiv:2607.27134](https://arxiv.org/abs/2607.27134), 2026
 
 
-* **Query-Limited Community Recovery in Stochastic Block Models**  
-Sabyasachi Basu, Manuj Mukherjee, Lutz Oettershagen, Suhas Thejaswi  
-[arxiv:2606.02055](https://arxiv.org/abs/2606.02055), 2026
-
 * **Top-k on a Budget: Adaptive Ranking with Weak and Strong Oracles**  
 Lutz Oettershagen  
 [arXiv:2601.20989](https://arxiv.org/abs/2601.20989), 2026
@@ -48,6 +44,12 @@ Yang Xiang, Li Fan, Chenke Yin, Lutz Oettershagen, Chengtao Ji
 
 
 ### Conference Articles 
+
+
+* **Query-Limited Community Recovery in Stochastic Block Models**  
+Sabyasachi Basu, Manuj Mukherjee, Lutz Oettershagen, Suhas Thejaswi  
+Conference on Neural Information Processing Systems (NeurIPS), 2026  
+[arxiv:2606.02055](https://arxiv.org/abs/2606.02055), 2026
 
 * **Unsupervised Multi-Scale Gromov-Wasserstein Hypergraph Alignment**  
 Lutz Oettershagen, Honglian Wang, Aristides Gionis  
