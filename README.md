@@ -48,7 +48,7 @@ Yang Xiang, Li Fan, Chenke Yin, Lutz Oettershagen, Chengtao Ji
 
 * **Query-Limited Community Recovery in Stochastic Block Models**  
 Sabyasachi Basu, Manuj Mukherjee, Lutz Oettershagen, Suhas Thejaswi  
-Conference on Neural Information Processing Systems (NeurIPS), 2026  
+[Conference on Neural Information Processing Systems (NeurIPS)](https://neurips.cc/), 2026  
 [arxiv:2606.02055](https://arxiv.org/abs/2606.02055), 2026
 
 * **Unsupervised Multi-Scale Gromov-Wasserstein Hypergraph Alignment**  
