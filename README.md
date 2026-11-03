@@ -45,6 +45,10 @@ Yang Xiang, Li Fan, Chenke Yin, Lutz Oettershagen, Chengtao Ji
 
 ### Conference Articles 
 
+* **ESPRESSO: Probabilistic Edge Strength under Triadic Pressure**  
+Lutz Oettershagen, Ilie Sarpe  
+[International Conference on Web Search and Data Mining](https://wsdm-conference.org/2027/), 2027
+
 
 * **Query-Limited Community Recovery in Stochastic Block Models**  
 Sabyasachi Basu, Manuj Mukherjee, Lutz Oettershagen, Suhas Thejaswi  
