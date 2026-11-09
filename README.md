@@ -23,6 +23,11 @@ You can find my [CV here](https://github.com/Lutzoe/lutzoe.github.io/raw/master/
 
 ### Preprints
 
+* **Parallel Algorithms for Higher-Order Temporal H-Index Computation**  
+Lutz Oettershagen  
+[arxiv:2611.09649](https://arxiv.org/pdf/2611.09649), 2026
+
+
 * **Fair Top-k Katz Centrality via Graph Design**  
 Ivan Qin, Prudence Wong, Lutz Oettershagen  
 [arxiv:2609.03899](https://arxiv.org/abs/2609.03899), 2026
