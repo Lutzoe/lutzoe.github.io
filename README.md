@@ -50,7 +50,7 @@ Yang Xiang, Li Fan, Chenke Yin, Lutz Oettershagen, Chengtao Ji
 
 ### Conference Articles 
 
-* **ShadowNet: Streaming Differentially Private Temporal Network Generation**, 2027  
+* **ShadowNet: Streaming Differentially Private Temporal Network Generation**  
 Lutz Oettershagen  
 [ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)](https://kdd2027.kdd.org/), 2027
 
