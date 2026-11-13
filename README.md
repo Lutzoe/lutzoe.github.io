@@ -50,6 +50,11 @@ Yang Xiang, Li Fan, Chenke Yin, Lutz Oettershagen, Chengtao Ji
 
 ### Conference Articles 
 
+* **ShadowNet: Streaming Differentially Private Temporal Network Generation**, 2027
+Lutz Oettershagen  
+[ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)](https://kdd2027.kdd.org/), 2027
+
+
 * **ESPRESSO: Probabilistic Edge Strength under Triadic Pressure**  
 Lutz Oettershagen, Ilie Sarpe  
 [International Conference on Web Search and Data Mining (WSDM)](https://wsdm-conference.org/2027/), 2027
